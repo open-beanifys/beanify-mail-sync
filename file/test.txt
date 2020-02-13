@@ -1,0 +1,906 @@
+       params: [Object],
+       message: 'should be array' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-Y35MME66JMFJC649WQH6GY',
+       ts: 66543437.6897 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.to[1] should match format "email"
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.to[1] should match format "email"',
+  stack:
+   'Error: pattern.to[1] should match format "email"\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_es\\nats-hemera\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'format',
+       dataPath: '.to[1]',
+       schemaPath: '#/properties/to/items/format',
+       params: [Object],
+       message: 'should match format "email"' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-NRNDPUYBPGFRCQ7KMZ1WRI',
+       ts: 66567104.5877 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.to[1] should match format "email"
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.to[1] should match format "email"',
+  stack:
+   'Error: pattern.to[1] should match format "email"\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_es\\nats-hemera\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'format',
+       dataPath: '.to[1]',
+       schemaPath: '#/properties/to/allOf/1/items/format',
+       params: [Object],
+       message: 'should match format "email"' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-UJW23U26DUZTHA8J5KHIRB',
+       ts: 66587768.142699 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.cc should be array
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.cc should be array',
+  stack:
+   'Error: pattern.cc should be array\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-h\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'type',
+       dataPath: '.cc',
+       schemaPath: '#/properties/cc/type',
+       params: [Object],
+       message: 'should be array' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-9KCSV2Z8S7AM6X6KEBB6Q2',
+       ts: 66598753.6958 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.to should be array
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.to should be array',
+  stack:
+   'Error: pattern.to should be array\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-h\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'type',
+       dataPath: '.to',
+       schemaPath: '#/properties/to/allOf/1/type',
+       params: [Object],
+       message: 'should be array' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,to:1296114084@qq.comsdf,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-QSROOK5T0MTCOVD8K83YE0',
+       ts: 66611062.855 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.to should be array
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.to should be array',
+  stack:
+   'Error: pattern.to should be array\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-h\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'type',
+       dataPath: '.to',
+       schemaPath: '#/properties/to/allOf/1/type',
+       params: [Object],
+       message: 'should be array' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,to:1296114084@qq.com,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-0PZ3PKSUW021K197BZXYDN',
+       ts: 66627436.218899 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.cc should be array
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.cc should be array',
+  stack:
+   'Error: pattern.cc should be array\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-h\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'type',
+       dataPath: '.cc',
+       schemaPath: '#/properties/cc/type',
+       params: [Object],
+       message: 'should be array' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-1M9X4YH3ADS9VRFDD7PDAM',
+       ts: 66700786.0222 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.cc should be array
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.cc should be array',
+  stack:
+   'Error: pattern.cc should be array\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-h\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'type',
+       dataPath: '.cc',
+       schemaPath: '#/properties/cc/type',
+       params: [Object],
+       message: 'should be array' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,to:1296114084@qq.com,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-554PHEHBHJ1F0EXRCTOGZN',
+       ts: 66713950.896099 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.to should match format "email", pattern.to should be array, pattern.to should match some schema in anyOf
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message:
+   'pattern.to should match format "email", pattern.to should be array, pattern.to should match some schema in anyOf',
+  stack:
+   'Error: pattern.to should match format "email", pattern.to should be array, pattern.to should match some schema in anyOf\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n   
+ at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at extRunner (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n   
+ at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'format',
+       dataPath: '.to',
+       schemaPath: '#/properties/to/anyOf/0/format',
+       params: [Object],
+       message: 'should match format "email"' },
+     { keyword: 'type',
+       schemaPath: '#/properties/to/anyOf/1/type',
+       params: [Object],
+       message: 'should be array' },
+     { keyword: 'anyOf',
+       dataPath: '.to',
+       schemaPath: '#/properties/to/anyOf',
+       params: {},
+       message: 'should match some schema in anyOf' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,to:1296114084 qq.com,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-CXXXANK4TTI8NZBES7YXP4',
+       ts: 66722268.272799 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.cc should be array
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.cc should be array',
+  stack:
+   'Error: pattern.cc should be array\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-h\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'type',
+       dataPath: '.cc',
+       schemaPath: '#/properties/cc/type',
+       params: [Object],
+       message: 'should be array' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-8VQ2JPCY87ESQ6ZA09E06Q',
+       ts: 66736514.8872 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.cc should be array
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.cc should be array',
+  stack:
+   'Error: pattern.cc should be array\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-h\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'type',
+       dataPath: '.cc',
+       schemaPath: '#/properties/cc/type',
+       params: [Object],
+       message: 'should be array' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-DITTFI7DO16Y1XGMFML3ZH',
+       ts: 66809464.1083 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.to[1] should match format "email"
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.to[1] should match format "email"',
+  stack:
+   'Error: pattern.to[1] should match format "email"\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_es\\nats-hemera\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'format',
+       dataPath: '.to[1]',
+       schemaPath: '#/properties/to/then/items/format',
+       params: [Object],
+       message: 'should match format "email"' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-YEERFM6I9AJU3OCADSHLJ3',
+       ts: 66821301.466099 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.to should be array
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.to should be array',
+  stack:
+   'Error: pattern.to should be array\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-h\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'type',
+       dataPath: '.to',
+       schemaPath: '#/properties/to/then/type',
+       params: [Object],
+       message: 'should be array' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,to:1296114084@qq.com,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-5AHLOSTJ01D8V687QLHNRC',
+       ts: 66835504.516699 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.cc should be array
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.cc should be array',
+  stack:
+   'Error: pattern.cc should be array\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-h\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'type',
+       dataPath: '.cc',
+       schemaPath: '#/properties/cc/type',
+       params: [Object],
+       message: 'should be array' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,to:1296114084@qq.com,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-8WB6P6KWZ6XU1X5RA7KEVG',
+       ts: 66916824.8031 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.cc should be array
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.cc should be array',
+  stack:
+   'Error: pattern.cc should be array\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-h\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'type',
+       dataPath: '.cc',
+       schemaPath: '#/properties/cc/type',
+       params: [Object],
+       message: 'should be array' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,to:1296114084 qq.com,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-CB5HHCCB1XZ25AVQLG2OWZ',
+       ts: 66929179.2729 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.cc should be array
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.cc should be array',
+  stack:
+   'Error: pattern.cc should be array\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-h\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'type',
+       dataPath: '.cc',
+       schemaPath: '#/properties/cc/type',
+       params: [Object],
+       message: 'should be array' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,to:1296114084 qq.com,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-HOZ130UYS6GINIQKL723IX',
+       ts: 66931051.651599 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.cc should be array
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.cc should be array',
+  stack:
+   'Error: pattern.cc should be array\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-h\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'type',
+       dataPath: '.cc',
+       schemaPath: '#/properties/cc/type',
+       params: [Object],
+       message: 'should be array' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,to:1296114084@qq.com,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-LKQFJMY0TMA75UZR2V72G1',
+       ts: 67128017.8689 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.to should match format "email"
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.to should match format "email"',
+  stack:
+   'Error: pattern.to should match format "email"\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_mod\nats-hemera\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'format',
+       dataPath: '.to',
+       schemaPath: '#/properties/to/then/format',
+       params: [Object],
+       message: 'should match format "email"' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,to:1296114084 qq.com,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-UO2K2SKHW2ZTL5W66ZWP0H',
+       ts: 67136518.661099 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.cc should be array
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.cc should be array',
+  stack:
+   'Error: pattern.cc should be array\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-h\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'type',
+       dataPath: '.cc',
+       schemaPath: '#/properties/cc/type',
+       params: [Object],
+       message: 'should be array' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-LKRPIEISLC779C420ABNZA',
+       ts: 67144590.035899 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.to[0] should match format "email"
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.to[0] should match format "email"',
+  stack:
+   'Error: pattern.to[0] should match format "email"\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_es\\nats-hemera\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'format',
+       dataPath: '.to[0]',
+       schemaPath: '#/properties/to/else/items/format',
+       params: [Object],
+       message: 'should match format "email"' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:,cc:,cmd:send,from:1296114084@qq.com,html:,subject:,test:,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-OLQMZITWR6LNPK2IIQXKFW',
+       ts: 67151906.6968 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern should have required property 'text'
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern should have required property \'text\'',
+  stack:
+   'Error: pattern should have required property \'text\'\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\modules\\nats-hemera\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'required',
+       dataPath: '',
+       schemaPath: '#/required',
+       params: [Object],
+       message: 'should have required property \'text\'' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:longzinziyan@gmail.com,cmd:send,from:1296114084@qq.com,html:,subject:,test:,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-DQTLE86PDJJDVZS12GDZO7',
+       ts: 67242594.326099 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.attachments should be array
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.attachments should be array',
+  stack:
+   'Error: pattern.attachments should be array\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modulets-hemera\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'type',
+       dataPath: '.attachments',
+       schemaPath: '#/properties/attachments/type',
+       params: [Object],
+       message: 'should be array' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'attachments:,bcc:longzinziyan@gmail.com,cmd:send,from:1296114084@qq.com,html:,subject:,text:,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-HRK2XKGO6LR8QQ2DC04BF2',
+       ts: 67262233.927099 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: Mail command failed: 501 mail from address must be same as authorization user
+    at SMTPConnection._formatError (H:\Work\Projects\hemera-mail\node_modules\smtp-connection\lib\smtp-connection.js:528:15)
+    at SMTPConnection._actionMAIL (H:\Work\Projects\hemera-mail\node_modules\smtp-connection\lib\smtp-connection.js:1252:30)
+    at SMTPConnection.<anonymous> (H:\Work\Projects\hemera-mail\node_modules\smtp-connection\lib\smtp-connection.js:759:14)
+    at SMTPConnection._processResponse (H:\Work\Projects\hemera-mail\node_modules\smtp-connection\lib\smtp-connection.js:669:16)
+    at SMTPConnection._onData (H:\Work\Projects\hemera-mail\node_modules\smtp-connection\lib\smtp-connection.js:493:10)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at TLSSocket.Readable.push (_stream_readable.js:224:10)
+    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+  name: 'Error',
+  message:
+   'Mail command failed: 501 mail from address must be same as authorization user',
+  stack:
+)\n    at SMTPConnection._actionMAIL (H:\\Work\\Projects\\hemera-mail\\node_modules\\smtp-connection\\lib\\smtp-connection.js:1252:30)\n    at SMTPConnection.<anonymous> (H:\\Work\\Projects\\hemera-mail\\node_modules\\smtp-connection\\lib\\smtp-connection.js:759:14)\n    at SMTPConnection._processResponse (H:\\Work\\Projects\\hemera-mail\\node_modules\\smtp-connection\\lib\\smtp-connection.js:669:16)\n    at SMTPConnection._onData (H:\\Work\\Projects\\hemera-mail\\node_modules\\smtp-connection\\lib\\smtp-connection.js:493:10)\n    at TLSSocket.emit (events.js:198:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)',
+  code: 'EENVELOPE',
+  response: '501 mail from address must be same as authorization user',
+  responseCode: 501,
+  command: 'MAIL FROM',
+  hops:
+   [ { service: 'mail',
+       method:
+        'bcc:longzinziyan@gmail.com,cmd:send,from:1296114084@qq.com,html:,subject:,text:,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-CWBT1JWWDEBXH6TB9JNS81',
+       ts: 67277524.435999 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.subject should NOT be shorter than 1 characters
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.subject should NOT be shorter than 1 characters',
+  stack:
+   'Error: pattern.subject should NOT be shorter than 1 characters\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemeil\\node_modules\\nats-hemera\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'minLength',
+       dataPath: '.subject',
+       schemaPath: '#/properties/subject/then/minLength',
+       params: [Object],
+       message: 'should NOT be shorter than 1 characters' } ],
+  hops:
+   [ { service: 'mail',
+       method:
+        'bcc:longzinziyan@gmail.com,cmd:send,from:1296114084@qq.com,html:,subject:,text:,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-PYODT4VR8A3UOGZV14Q2EK',
+       ts: 67417829.3926 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: Mail command failed: 501 mail from address must be same as authorization user
+    at SMTPConnection._formatError (H:\Work\Projects\hemera-mail\node_modules\smtp-connection\lib\smtp-connection.js:528:15)
+    at SMTPConnection._actionMAIL (H:\Work\Projects\hemera-mail\node_modules\smtp-connection\lib\smtp-connection.js:1252:30)
+    at SMTPConnection.<anonymous> (H:\Work\Projects\hemera-mail\node_modules\smtp-connection\lib\smtp-connection.js:759:14)
+    at SMTPConnection._processResponse (H:\Work\Projects\hemera-mail\node_modules\smtp-connection\lib\smtp-connection.js:669:16)
+    at SMTPConnection._onData (H:\Work\Projects\hemera-mail\node_modules\smtp-connection\lib\smtp-connection.js:493:10)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at TLSSocket.Readable.push (_stream_readable.js:224:10)
+    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+  name: 'Error',
+  message:
+   'Mail command failed: 501 mail from address must be same as authorization user',
+  stack:
+)\n    at SMTPConnection._actionMAIL (H:\\Work\\Projects\\hemera-mail\\node_modules\\smtp-connection\\lib\\smtp-connection.js:1252:30)\n    at SMTPConnection.<anonymous> (H:\\Work\\Projects\\hemera-mail\\node_modules\\smtp-connection\\lib\\smtp-connection.js:759:14)\n    at SMTPConnection._processResponse (H:\\Work\\Projects\\hemera-mail\\node_modules\\smtp-connection\\lib\\smtp-connection.js:669:16)\n    at SMTPConnection._onData (H:\\Work\\Projects\\hemera-mail\\node_modules\\smtp-connection\\lib\\smtp-connection.js:493:10)\n    at TLSSocket.emit (events.js:198:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)',
+  code: 'EENVELOPE',
+  response: '501 mail from address must be same as authorization user',
+  command: 'MAIL FROM',
+  hops:
+   [ { service: 'mail',
+       method:
+        'bcc:longzinziyan@gmail.com,cmd:send,from:1296114084@qq.com,html:,subject:邮件测试,text:测试内容,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-VQMINWRM27CJJO47155KDR',
+       ts: 67441284.249399 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+null
+{ accepted: [ '1296114084@qq.com' ],
+  rejected: [],
+  response: '250 Ok: queued as ',
+  envelope: { from: '1296114084@qq.com', to: [ '1296114084@qq.com' ] },
+  messageId: '7db30385-8b4a-ea0b-38c9-3da42647c815@qq.com' }
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ topic: 'mail',
+  cmd: 'send',
+  from: '1296114084@qq.com',
+  to: [ '1296114084@qq.com', '1296114084@qq.com' ],
+  cc: [ '1296114084@qq.com', '2811416050@qq.com' ],
+  subject: '邮件测试',
+  text: '测试内容',
+  html: '',
+  attachments: [] }
+null
+{ topic: 'mail',
+  cmd: 'send',
+  from: '1296114084@qq.com',
+  to: [ '1296114084@qq.com', '1296114084@qq.com' ],
+  cc: [ '1296114084@qq.com', '2811416050@qq.com' ],
+  bcc: 'longzinziyan@gmail.com',
+  subject: '邮件测试',
+  text: '测试内容',
+  html: '',
+  attachments: [] }
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ topic: 'mail',
+  cmd: 'send',
+  data:
+   { from: '1296114084@qq.com',
+     to: [ '1296114084@qq.com', '1296114084@qq.com' ],
+     cc: [ '1296114084@qq.com', '2811416050@qq.com' ],
+     bcc: 'longzinziyan@gmail.com',
+     text: '测试内容',
+     html: '',
+     attachments: [] } }
+null
+{ topic: 'mail',
+  cmd: 'send',
+  data:
+   { from: '1296114084@qq.com',
+     to: [ '1296114084@qq.com', '1296114084@qq.com' ],
+     cc: [ '1296114084@qq.com', '2811416050@qq.com' ],
+     bcc: 'longzinziyan@gmail.com',
+     subject: '邮件测试',
+     text: '测试内容',
+     html: '',
+     attachments: [] } }
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern should have required property 'data'
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern should have required property \'data\'',
+  stack:
+   'Error: pattern should have required property \'data\'\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\nodnode_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at extRunner (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'required',
+       dataPath: '',
+       schemaPath: '#/required',
+       params: [Object],
+       message: 'should have required property \'data\'' } ],
+  hops:
+   [ { service: 'mail',
+       method: 'cmd:send,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-O82L2ATX3XQ0UCTD5PMGB5',
+       ts: 68118395.9496 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.data.from should match format "email"
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.data.from should match format "email"',
+  stack:
+   'Error: pattern.data.from should match format "email"\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\nodeode_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at extRunner (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'format',
+       dataPath: '.data.from',
+       schemaPath: '#/properties/data/properties/from/format',
+       params: [Object],
+       message: 'should match format "email"' } ],
+  hops:
+   [ { service: 'mail',
+       method: 'cmd:send,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-WBBLSZ1J0K9VL9IRCGWIF1',
+       ts: 68126460.5191 } ] }
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+null
+{ accepted:
+   [ '1296114084@qq.com',
+     '2811416050@qq.com',
+     'longzinziyan@gmail.com' ],
+  rejected: [],
+  response: '250 Ok: queued as ',
+  envelope:
+   { from: '1296114084@qq.com',
+     to:
+      [ '1296114084@qq.com',
+        '2811416050@qq.com',
+        'longzinziyan@gmail.com' ] },
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+null
+{ accepted:
+   [ '1296114084@qq.com',
+     '2811416050@qq.com',
+     'longzinziyan@gmail.com' ],
+  rejected: [],
+  response: '250 Ok: queued as ',
+  envelope:
+   { from: '1296114084@qq.com',
+     to:
+      [ '1296114084@qq.com',
+        '2811416050@qq.com',
+        'longzinziyan@gmail.com' ] },
+  messageId: '4c992699-6e91-1427-4b0f-93a542210887@qq.com' }
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.data.html should NOT be shorter than 1 characters
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message: 'pattern.data.html should NOT be shorter than 1 characters',
+  stack:
+   'Error: pattern.data.html should NOT be shorter than 1 characters\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemermera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at extRunner (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'minLength',
+       dataPath: '.data.html',
+       schemaPath: '#/properties/data/properties/html/then/minLength',
+       params: [Object],
+       message: 'should NOT be shorter than 1 characters' } ],
+  hops:
+   [ { service: 'mail',
+       method: 'cmd:send,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-5DLQ1VGZML2U8477B44KEE',
+       ts: 68548645.154899 } ] }
+undefined
+PS H:\Work\Projects\hemera-mail\test> node .\index.test.js
+{ Error: pattern.data.attachments should NOT have fewer than 1 items
+    at pattern (H:\Work\Projects\hemera-mail\node_modules\hemera-ajv\index.js:45:21)
+    at onRequestSchemaValidation (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:294:48)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at onRequest (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensions.js:252:3)
+    at serverExtIterator (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:36:10)
+    at next (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:12:20)
+    at extRunner (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\extensionRunner.js:28:3)
+    at handler (H:\Work\Projects\hemera-mail\node_modules\nats-hemera\lib\index.js:804:9)
+    at Immediate.setImmediate [as _onImmediate] (H:\Work\Projects\hemera-mail\node_modules\hemera-testsuite\nats.js:145:26)
+  name: 'Error',
+  message:
+   'pattern.data.attachments should NOT have fewer than 1 items',
+  stack:
+   'Error: pattern.data.attachments should NOT have fewer than 1 items\n    at pattern (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-ajv\\index.js:45:21)\n    at onRequestSchemaValidation (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:294:48)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at onRequest (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensions.js:252:3)\n    at serverExtIterator (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:36:10)\n    at next (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:12:20)\n    at extRunner (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\extensionRunner.js:28:3)\n    at handler (H:\\Work\\Projects\\hemera-mail\\node_modules\\nats-hemera\\lib\\index.js:804:9)\n    at Immediate.setImmediate [as _onImmediate] (H:\\Work\\Projects\\hemera-mail\\node_modules\\hemera-testsuite\\nats.js:145:26)',
+  validation:
+   [ { keyword: 'minItems',
+       dataPath: '.data.attachments',
+       schemaPath: '#/properties/data/properties/attachments/minItems',
+       params: [Object],
+       message: 'should NOT have fewer than 1 items' } ],
+  hops:
+   [ { service: 'mail',
+       method: 'cmd:send,topic:mail',
+       app: 'hemera-DESKTOP-TM35L37-DPOHHF6MSBY89ECVYHB59N',
+       ts: 68571476.323099 } ] }
+undefined

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{title}}</title>
+    <link rel="shortcut icon"  href="./public/favicon.ico"></link>
+    <link rel='stylesheet' type='text/css'  href="main.css"></link>
+</head>
+<body>
+    <button class="top-button">我要留言</button>
+    //这里的语法跟vue有点类似，具体看art-template文档 https://aui.github.io/art-template/docs/
+    <h2>{{header}}</h2>
+    {{each files}}
+    <div class="box">
+        <p title={{$value.message}}>{{$value.name}}说：{{$value.message}}</p>
+        <p>{{$value.date}}</p>
+        <button class="delet"><a href="/delete?Id=<%= $value.Id%>">Delete</a></button>
+    </div>
+    {{/each}}
+</body>
+</html>
+<script src="./public/main.js"></script>

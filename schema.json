@@ -1,0 +1,156 @@
+{
+  "body": {
+    "type": "object",
+    "properties": {
+      "from": {
+        "format": "email"
+      },
+      "to": {
+        "if": {
+          "type": "string"
+        },
+        "then": {
+          "format": "email"
+        },
+        "else": {
+          "type": "array",
+          "items": {
+            "format": "email"
+          }
+        }
+      },
+      "cc": {
+        "if": {
+          "type": "string"
+        },
+        "then": {
+          "format": "email"
+        },
+        "else": {
+          "type": "array",
+          "items": {
+            "format": "email"
+          }
+        }
+      },
+      "bcc": {
+        "if": {
+          "type": "string"
+        },
+        "then": {
+          "format": "email"
+        },
+        "else": {
+          "type": "array",
+          "items": {
+            "format": "email"
+          }
+        }
+      },
+      "subject": {
+        "type": [
+          "string",
+          "number"
+        ],
+        "if": {
+          "type": "string"
+        },
+        "then": {
+          "minLength": 1
+        },
+        "else": {
+          "type": "number"
+        }
+      },
+      "text": {
+        "type": [
+          "string",
+          "number"
+        ],
+        "if": {
+          "type": "string"
+        },
+        "then": {
+          "minLength": 1
+        },
+        "else": {
+          "type": "number"
+        }
+      },
+      "html": {
+        "type": [
+          "string",
+          "number"
+        ],
+        "if": {
+          "type": "string"
+        },
+        "then": {
+          "minLength": 1
+        },
+        "else": {
+          "type": "number"
+        }
+      },
+      "headers": {
+        "type": "object"
+      },
+      "messageId": {
+        "type": "string"
+      },
+      "date": {
+        "format": "date"
+      },
+      "list": {
+        "type": "object"
+      },
+      "attachments": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "filename": {
+              "type": "string",
+              "pattern": "[^*|\\:\"<>?/]+\\.[^*|\\:\"<>?/\u4E00-\u9FA5]+"
+            },
+            "content": {
+              "type": [
+                "string",
+                "object"
+              ]
+            },
+            "path": {
+              "format": "uri-reference"
+            },
+            "href": {
+              "format": "uri-reference"
+            },
+            "httpHeaders": {
+              "type": "string"
+            },
+            "contentType": {
+              "type": "string"
+            },
+            "cid": {
+              "type": "string"
+            },
+            "encoding": {
+              "type": "string"
+            },
+            "raw": {
+              "type": "string"
+            },
+            "headers": {}
+          }
+        },
+        "minItems": 1
+      }
+    },
+    "required": [
+      "from",
+      "to",
+      "subject",
+      "text"
+    ]
+  }
+}
