@@ -4,7 +4,8 @@
   "description": "beanify邮件服务组件，同步版",
   "main": "index.js",
   "scripts": {
-    "test": "tap test/*.test.js --100 --cov --coverage-report=text"
+    "test": "standard && tap test/*.test.js --100 --cov --coverage-report=text",
+    "unit": "tap test/*.test.js --100 --cov --coverage-report=lcov"
   },
   "repository": {
     "type": "git",
